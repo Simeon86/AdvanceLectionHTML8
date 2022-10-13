@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <style type="text/css">
+        td {
+            border: 1px solid black
+        }
+
+        table {
+            border: 1px solid red
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>HTML Table</h1>
+    <hr>
+
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <td>TD 1X1</td>
+            <td>TD 1X2</td>
+            <td>TD 1X3</td>
+            <td>TD 1X4</td>
+        </tr>
+        <tr>
+            <td>TD 2X1</td>
+            <td>TD 2X2</td>
+            <td>TD 2X3</td>
+            <td>TD 2X4</td>
+        </tr>
+        <tr>
+            <td>TD 3X1</td>
+            <td>TD 3X2</td>
+            <td>TD 3X3</td>
+            <td>TD 3X4</td>
+        </tr>
+        <tr>
+            <td>TD 4X1</td>
+            <td>TD 4X2</td>
+            <td>TD 4X3</td>
+            <td>TD 4X4</td>
+        </tr>
+    </table>
+
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <th>TD 1X1</td>
+            <th>TD 1X2</td>
+            <th>TD 1X3</td>
+            <th>TD 1X4</td>
+        </tr>
+        <tr>
+            <td>TD 2X1</td>
+            <td>TD 2X2</td>
+            <td>TD 2X3</td>
+            <td>TD 2X4</td>
+        </tr>
+        <tr>
+            <td>TD 3X1</td>
+            <td>TD 3X2</td>
+            <td>TD 3X3</td>
+            <td>TD 3X4</td>
+        </tr>
+        <tr>
+            <td>TD 4X1</td>
+            <td>TD 4X2</td>
+            <td>TD 4X3</td>
+            <td>TD 4X4</td>
+        </tr>
+    </table>
+
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <th scope="row">TD 1X1</th>
+            <td>TD 1X2</td>
+            <td>TD 1X3</td>
+            <td>TD 1X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 2X2</td>
+            <td>TD 2X3</td>
+            <td>TD 2X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 3X1</th>
+            <td>TD 3X2</td>
+            <td>TD 3X3</td>
+            <td>TD 3X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 4X1</th>
+            <td>TD 4X2</td>
+            <td>TD 4X3</td>
+            <td>TD 4X4</td>
+        </tr>
+    </table>
+
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <th scope="col">TD 1X1</td>
+            <th scope="col">TD 1X2</td>
+            <th scope="col">TD 1X3</td>
+            <th scope="col">TD 1X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 2X2</td>
+            <td>TD 2X3</td>
+            <td>TD 2X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 3X2</td>
+            <td>TD 3X3</td>
+            <td>TD 3X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 4X2</td>
+            <td>TD 4X3</td>
+            <td>TD 4X4</td>
+        </tr>
+    </table>
+
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <th scope="col">TD 1X1</td>
+            <th scope="col">TD 1X2</td>
+            <th scope="col">TD 1X3</td>
+            <th scope="col">TD 1X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td colspan="2">TD 2X2</td>
+            
+            <td>TD 2X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 3X2</td>
+            <td>TD 3X3</td>
+            <td>TD 3X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 4X2</td>
+            <td>TD 4X3</td>
+            <td>TD 4X4</td>
+        </tr>
+    </table>
+
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <th scope="col">TD 1X1</td>
+            <th scope="col">TD 1X2</td>
+            <th scope="col">TD 1X3</td>
+            <th scope="col">TD 1X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 2X2</td>
+            <td>TD 4X3</td>
+            <td>TD 2X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 3X2</td>
+            <td>TD 3X3</td>
+            <td rowspan="2">TD 3X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 4X2</td>
+            <td>TD 4X3</td>
+        </tr>
+    </table>
+
+    <table cellspacing="15" cellpadding="15">
+        <tr>
+            <th scope="col">TD 1X1</td>
+            <th scope="col">TD 1X2</td>
+            <th scope="col">TD 1X3</td>
+            <th scope="col">TD 1X4</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td colspan="2" rowspan="2">TD 2X2</td>
+            <td>TD 2X3</td>
+            
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 3X2</td>
+        </tr>
+        <tr>
+            <th scope="row">TD 2X1</th>
+            <td>TD 4X2</td>
+            <td>TD 4X3</td>
+            <td>TD 4X4</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
